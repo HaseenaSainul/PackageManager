@@ -30,8 +30,6 @@
 
 MODULE_NAME_DECLARATION(BUILD_REFERENCE);
 
-namespace Thunder = WPEFramework;
-
 using namespace Thunder;
 
 class PackageManagerImplementation : public Thunder::Exchange::IPackageManager {
