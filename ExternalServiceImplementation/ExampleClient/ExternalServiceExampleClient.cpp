@@ -262,7 +262,7 @@ private:
 int main(int, char*)
 {
     {
-        PackageManagerClient  packmanclient(3000, _T("PackageManager"));
+        PackageManagerClient  packmanclient(3000, _T("org.rdk.PackageManager"));
         char keyPress;
 
         // chip.PCD_Init();
